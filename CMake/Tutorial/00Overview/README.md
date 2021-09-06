@@ -39,11 +39,11 @@ We wish to write one project generator and runs on different OS.
 CMake is the solution.  
 
 When we have CMake, we donot need to write two script file we can run same commands on both systems:
+And just build project with there own compiler.
 ```
 PS\> mkdir build
 PS\> cd build
 PS\> cmake -G "Visual Studio 14 Win64" ..
-PS\> MSBuild ALL_BUILD.vcxproj /p:Platform=x64 /p:Configuration=Debug
 PS\> MSBuild ALL_BUILD.vcxproj /p:Platform=x64 /p:Configuration=Release
 ```
 
