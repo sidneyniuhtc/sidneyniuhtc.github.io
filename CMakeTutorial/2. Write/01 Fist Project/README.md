@@ -70,8 +70,8 @@ For link libraries and include the headers, you need to use include_directories 
 If you have many projects, you need to assign by target.
 Thus, this one is more recommended:
 ```
-# assign for target - paramater
-target_include_directories(FirstProject ${GTEST_INCLUDE_DIRS})
+# assign for target-paramater
+target_include_directories(FirstProject PRIVATE ${GTEST_INCLUDE_DIRS})
 target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 ```
 
@@ -90,7 +90,7 @@ endforeach(INPUTS)
 We can add google test as library when we found the library
 ```
 if(GTEST_FOUND)
-    target_include_directories(FirstProject ${GTEST_INCLUDE_DIRS})
+    target_include_directories(FirstProject PRIVATE ${GTEST_INCLUDE_DIRS})
     target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 endif()
 
