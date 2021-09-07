@@ -91,7 +91,7 @@ We can add google test as library when we found the library
 ```
 if(GTEST_FOUND)
     include_directories(${GTEST_INCLUDE_DIRS})
-    target_link_libraries(01GoogleTest ${GTEST_BOTH_LIBRARIES})
+    target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 endif()
 
 ```
@@ -110,7 +110,7 @@ When we just build the project on linux, google test will fail because the log s
 We need to add a setting in our cmake codes.
 ```
 if(UNIX)
-    target_link_libraries(01GoogleTest ${GTEST_BOTH_LIBRARIES})
+    target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 endif()
 ```
 Finally,  
