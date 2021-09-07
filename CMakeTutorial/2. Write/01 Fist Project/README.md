@@ -120,5 +120,5 @@ Finally,
 
 
 
-[Previous: Basic Concept](../(00%20Basic%20Concept))
+[Previous: Basic Concept](../00%20Basic%20Concept)
 [Upper Layer](../../)
