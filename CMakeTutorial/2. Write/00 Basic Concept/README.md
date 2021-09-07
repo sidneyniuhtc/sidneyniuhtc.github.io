@@ -45,7 +45,7 @@ There are two comment format:
 If we want to assign a variable with a data, we use set().
 For example, if we want to set a flag of debug, we can do this:
 ```
-# [[ 
+#[[ 
 CMAKE_CXX_FLAGS_DEBUG is the target variable
 "-g" is the paramater1 string
 ]]
