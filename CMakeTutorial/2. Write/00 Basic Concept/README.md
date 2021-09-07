@@ -84,6 +84,7 @@ VERSION is the target variable
 and add our first code of cmake project
 
 ```
+# add variable do not need declare
 set(FIRST_STRING "Hello")
 set(SECONT_STRING "CMake!!")
 
@@ -98,4 +99,6 @@ And run with the command we learn at [overview](../../0.%20Overview#why-we-need-
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/linux.png"/>
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/windows.PNG"/>
 
+
 [Upper Layer](../../)
+[Next: Fist Project](../01%20First%20Project)
