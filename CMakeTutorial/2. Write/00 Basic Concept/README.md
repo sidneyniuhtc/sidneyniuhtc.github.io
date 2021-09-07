@@ -73,7 +73,7 @@ set(SECONT_STRING "CMake!!")
 message("${FIRST_STRING} ${SECONT_STRING}")
 ```
 
-And run with the command 
+And run with the command we learn at [overview](../../0.%20Overview#why-we-need-cmake-1)
 
 ## Example project
 https://github.com/sidneyniuhtc/HelloCMake.git
