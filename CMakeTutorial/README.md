@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-* [Why need CMake](00Overview/)
-  * [First Example](00Overview/Example)
+* [Why need CMake](0.Overview/)
+  * [First Example](Examples\00HalloCMake)
 
 
 * Exmaple to use CMake with OpenCV with extra modules
