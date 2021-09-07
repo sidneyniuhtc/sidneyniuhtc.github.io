@@ -29,31 +29,29 @@ project ("FirstProject")
 
 ### Executable project
 
-If you want to make a executable project, you need to add a 
-
+If you want to make a executable project, you need to add a executable file
 ```
 add_executable(FirstProject "main.cpp")
 ```
 
-### Find library
+### Find Library
 
-If a module is support by cmake in default, there is a FindXXX.cmake method.
+Using library is common. We can add library at cmake.  
 
+If a module is support by cmake in default, there is a FindXXX.cmake method.  
 You can see official doc at [modules](https://cmake.org/cmake/help/latest/manual/cmake-modules.7.html) or just see the file in cmake installed path.  
 For example:   
 "C:\Program Files\CMake\share\cmake-3.18\Modules" has lots of FindXXX.cmake files.  
 "usr/share/cmake-3.21/Modules/" has lots of FindXXX.cmake files.  
 
 We use google test as our example.
-
 ```
 find_package(GTest)
 
 ```
 
-When you call the find_package(XXX)
-
-Usually has many variables such as XXX_INCLUDE_DIRS, XXX_SHARED_LIBRARIES, XXX_STATIC_LIBRARIES, XXX_VERSION, XXX_FOUND.  
+After you call the find_package(XXX),  
+Usually there are many variables such as XXX_INCLUDE_DIRS, XXX_SHARED_LIBRARIES, XXX_STATIC_LIBRARIES, XXX_VERSION, XXX_FOUND.  
 All of these can be found in Modules/FindXXX.cmake file.  
 For example, you can check
 ```
@@ -77,7 +75,7 @@ target_include_directories(FirstProject ${GTEST_INCLUDE_DIRS})
 target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 ```
 
-### flow control
+### Flow Control
 
 At "Basic concepts of CMake codes", we told about there are two classes of funtions.  
 Another fution class is multi-command funtions.  
