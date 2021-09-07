@@ -90,7 +90,7 @@ endforeach(INPUTS)
 We can add google test as library when we found the library
 ```
 if(GTEST_FOUND)
-    include_directories(${GTEST_INCLUDE_DIRS})
+    target_include_directories(FirstProject ${GTEST_INCLUDE_DIRS})
     target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 endif()
 
