@@ -69,7 +69,7 @@ message("CMAKE_CXX_FLAGS_DEBUG is ${CMAKE_CXX_FLAGS_DEBUG}")
 
 ```
 
-## Let start our hello cmake project.
+## Let's start our hello cmake project.
 
 First, you need to assign minimum cmake version to constrain user version.  
 Thus, the first line usually is 
