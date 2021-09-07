@@ -78,7 +78,9 @@ message("${FIRST_STRING} ${SECONT_STRING}")
 And run with the command we learn at [overview](../../0.%20Overview#why-we-need-cmake-1)
 
 ## Example project
-https://github.com/sidneyniuhtc/HelloCMake.git
+[https://github.com/sidneyniuhtc/00HelloCMake.git](https://github.com/sidneyniuhtc/00HelloCMake.git)
 
+<img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/linux.png"/>
+<img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/windows.PNG"/>
 
 [Upper Layer](../../)
