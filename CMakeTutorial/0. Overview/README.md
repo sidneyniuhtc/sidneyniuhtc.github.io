@@ -6,7 +6,7 @@ However, compiled languages such as C/C++, Java are need to run with compiled fi
 
 That is, we need a build system to convert codes to a file which is able to run on a computer.  
 
-Generaly, there are three major compilers for compile C++ codes, which are Clang, GCC, MSVC. 
+Generaly, there are three major compilers for compile C++ codes, which are Clang, GCC, MSVC.  
 (Actually, these are front-end, all of them support LLVM back-end)  
 
 ## Why we need project
@@ -24,7 +24,7 @@ Because different linux distributions have different system environments, we use
 GNU Autotools are GNU Autoconf, GNU Automake, GNU Libtool
 
 ## Why we need CMake
-Because Windows and Linux have entirely different binary system, there are necessary to write another script to generate build system
+Because Windows and Linux have entirely different binary system, there are necessary to write another script to generate build system.  
 For instance, build boost need to run windows script:
 ```
 > .\bootstrap.bat  
