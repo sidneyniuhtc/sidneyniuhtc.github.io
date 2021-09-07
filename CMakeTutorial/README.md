@@ -3,15 +3,13 @@
 ## Table of Contents
 
 * [Why need CMake](0.Overview/)
-  * [First Example](Examples\00HalloCMake)
-
 
 * Exmaple to use CMake with OpenCV with extra modules
   * On Windows 10
   * On Linux Mint
 
 * Write CMake Project
-  * 0. Basic concept of CMake codes
+  * [0. Basic concept of CMake codes](2. Write/00 Basic Concept)
   * 1. Clean project with executable output 
     * Example: Hello CMake
   * 2. How to debug CMake codes
