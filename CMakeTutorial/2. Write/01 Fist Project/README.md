@@ -110,7 +110,7 @@ When we just build the project on linux, google test will fail because the log s
 We need to add a setting in our cmake codes.
 ```
 if(UNIX)
-    target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
+    target_link_libraries(FirstProject pthread)
 endif()
 ```
 Finally,  
