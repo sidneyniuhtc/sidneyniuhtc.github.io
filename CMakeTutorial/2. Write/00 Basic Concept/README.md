@@ -74,7 +74,7 @@ message("CMAKE_CXX_FLAGS_DEBUG is ${CMAKE_CXX_FLAGS_DEBUG}")
 First, you need to assign minimum cmake version to constrain user version.  
 Thus, the first line usually is 
 ```
-cmake_minimum_required(VERSION 3.)
+cmake_minimum_required(VERSION 3.12)
 # [[ 
 VERSION is the target variable
 3.5 is the paramater1 string
