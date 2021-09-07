@@ -97,13 +97,13 @@ endif()
 ```
 
 ### Example project
-[https://github.com/sidneyniuhtc/01FirstProject](https://github.com/sidneyniuhtc/01FirstProject)
+[https://github.com/sidneyniuhtc/01FirstProject](https://github.com/sidneyniuhtc/01FirstProject)  
 
+success on windows  
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/01%20Fist%20Project/Windows.PNG"/>
 
 
 ### fail on linux
-
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/01%20Fist%20Project/Fail%20on%20Linux.PNG"/>
 
 When we just build the project on linux, google test will fail because the log shows not find the pthread.  
