@@ -1,4 +1,4 @@
-# Wrtie CMake
+# Write CMake codes
 
 ## Recommand Datas
 
@@ -22,9 +22,10 @@
 The entry point of cmake project is **CMakeLists.txt**.  
 That is, you need to cmake on the folder who obtain **CMakeLists.txt**.  
 
-All cmake variables data.... are **STRINGS**.  
+All cmake variables data type are **STRINGS**.  
 
-Conventionally, cmake variables use **UPPER_CASE** for naming, such as CMAKE_CXX_FLAGS_DEBUG, PROJ_INCLUDE_DIRS, etc.  
+CMake does not care UPPER or lower cases, IF() and if() are the same in cmake view.   
+Conventionally, cmake variables use **UPPER_CASES** for naming, such as CMAKE_CXX_FLAGS_DEBUG, PROJ_INCLUDE_DIRS, etc.  
 And cmake funtions use **lower_cases** for naming, such as add_compile_options(), find_package(), etc.  
 
 The cmake funtion has two major classes, multi-command funtion and single command.  
