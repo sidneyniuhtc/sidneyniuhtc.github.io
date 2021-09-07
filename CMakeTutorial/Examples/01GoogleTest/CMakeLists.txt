@@ -1,6 +1,10 @@
 cmake_minimum_required (VERSION 3.5)
 
-add_executable(01GoogleTest "main.cpp")
+set(PROJECT_NAME "FirstProject")
+
+project(PROJECT_NAME)
+
+add_executable(PROJECT_NAME "main.cpp")
 
 #find googleTest
 find_package(GTest)

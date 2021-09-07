@@ -22,25 +22,45 @@
 The entry point of cmake project is **CMakeLists.txt**.  
 That is, you need to cmake on the folder who obtain **CMakeLists.txt**.  
 
-All cmake variables, functions, data.... are strings.  
-That is, the codes will be expand, just like macro.  
+All cmake variables data.... are **STRINGS**.  
 
-Conventionally, major cmake variables use **UPPER_CASE**, such as CMAKE_CXX_FLAGS_DEBUG, PROJ_INCLUDE_DIRS, etc.  
+Conventionally, cmake variables use **UPPER_CASE** for naming, such as CMAKE_CXX_FLAGS_DEBUG, PROJ_INCLUDE_DIRS, etc.  
+And cmake funtions use **lower_cases** for naming, such as add_compile_options(), find_package(), etc.  
 
-The cmake funtion has two major class, multi-command funtion and single command.  
-The single command format is funtion(paramater1, paramater2, paramater3.....).  
+The cmake funtion has two major classes, multi-command funtion and single command.  
+The single command format is funtion(TARGET paramater1, paramater2, paramater3.....).  
+Maybe a funtion has TARGET, or maybe not.  
+Further, as we mentioned before, the paramaters are only STRING type which is need question mark.  
+
+### comments
+There are two comment format:
+```
+# one line comment use sharp symbol
+
+
+#[[ multiline comment
+    use bracket ]]
+```
+### assign data
+If we want to assign a variable with a data, we use set().
 For example, if we want to set a flag of debug, we can do this:
 ```
+# [[ 
+CMAKE_CXX_FLAGS_DEBUG is the target variable
+"-g" is the paramater1 string
+]]
+
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 ```
-However, this will cause we override the variable with new data.  
+However, this will cause override the variable with new data.  
 If we want to append, we can use this method:
 ```
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
 ```
-**${VARIABLE}** is the method to get the data of variable, which is all string as mentioned before.
+**${VARIABLE}** is the method to get the data of variable, and the result is a string as mentioned before.
 
+### print
 Moreover, The debug method is use **message()** built-in function.  
 For example, if we want to print the variable of CMAKE_CXX_FLAGS_DEBUG,  
 we can do this:
@@ -49,21 +69,16 @@ message("CMAKE_CXX_FLAGS_DEBUG is ${CMAKE_CXX_FLAGS_DEBUG}")
 
 ```
 
-## Let start our first cmake project.
+## Let start our hello cmake project.
 
-First, you need to assign minum cmake version to avoid old features.  
+First, you need to assign minimum cmake version to constrain user version.  
 Thus, the first line usually is 
 ```
 cmake_minimum_required(VERSION 3.5)
-```
-
-There are two comment format:
-```
-# one line use sharp symbol
-
-
-#[[ multiline 
-    use bracket ]]
+# [[ 
+VERSION is the target variable
+3.5 is the paramater1 string
+]]
 ```
 
 and add our first code of cmake project
