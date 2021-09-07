@@ -2,9 +2,9 @@
 *.d
 
 # Build results
-/[Bb]uild/**
-/x64-Debug/**
-/out/**
+[Bb]uild/
+x64-Debug/
+out/
 
 # Compiled Object files
 *.slo
@@ -36,8 +36,5 @@
 *.out
 *.app
 /.vs
-
-/CMake/Tutorial/CmakeTutorial/01GoogleTest/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2
-/CMake/Tutorial/CmakeTutorial/01GoogleTest/out/build/x64-Debug
-/CMake/Tutorial/CmakeTutorial/02Boost/out/build/x64-Debug
-/CMake/Tutorial/CmakeTutorial/03QtGL/out/build/x64-Debug
+/CMakeTutorial/Examples/05FBX
+/CMakeTutorial/Examples/04OpenCV
