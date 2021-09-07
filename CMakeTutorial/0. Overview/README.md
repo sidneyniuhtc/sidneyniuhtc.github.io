@@ -45,17 +45,15 @@ cd build
 cmake ..
 ```
 
-And just build project with there own compiler.
+And just build and run project with there own compiler.
 ```
-
 PS\> MSBuild ALL_BUILD.vcxproj /p:Platform=x64 /p:Configuration=Release
+PS\> .\a.exe
 ```
 
 ```
-[user]$ mkdir build
-[user]$ cd build
-[user]$ cmake ..
 [user]$ make
+[user]$ .\a.out
 ```
 
-[Last Layer](../)
+[Upper Layer](../)
