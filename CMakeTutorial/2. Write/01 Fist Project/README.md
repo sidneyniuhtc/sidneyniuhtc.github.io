@@ -1,4 +1,4 @@
-# Wrtie CMake
+# Write CMake
 
 ## Our first project
 
