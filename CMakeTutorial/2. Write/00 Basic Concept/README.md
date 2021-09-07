@@ -6,15 +6,15 @@
 [CMake official Documentation](https://cmake.org/cmake/help/latest/index.html)
 
 ### Videos
-★★★☆☆ [CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”](https://www.youtube.com/watch?v=eC9-iRN2b04)
+★★☆☆☆ [CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”](https://www.youtube.com/watch?v=eC9-iRN2b04)
   
 ★★★★★ [C++Now 2017: Daniel Pfeifer “Effective CMake"](https://www.youtube.com/watch?v=bsXLMQ6WgIk)
 
-★★★★★ [CppCon 2018: Mateusz Pusz “Git, CMake, Conan - How to ship and reuse our C++ projects”](https://www.youtube.com/watch?v=S4QSKLXdTtA)
+★★★★☆ [CppCon 2018: Mateusz Pusz “Git, CMake, Conan - How to ship and reuse our C++ projects”](https://www.youtube.com/watch?v=S4QSKLXdTtA)
 
-★★★★☆ [More Modern CMake - Deniz Bahadir - Meeting C++ 2018](https://www.youtube.com/watch?v=y7ndUhdQuU8)
+★★★★☆ [Meeting C++ 2018: More Modern CMake - Deniz Bahadir](https://www.youtube.com/watch?v=y7ndUhdQuU8)
 
-★★★★★ [Deep CMake for Library Authors - Craig Scott - CppCon 2019](https://www.youtube.com/watch?v=m0DwB4OvDXk)
+★★★★★ [CppCon 2019: Deep CMake for Library Authors - Craig Scott](https://www.youtube.com/watch?v=m0DwB4OvDXk)
 
 
 ## Basic concepts of CMake codes
