@@ -59,7 +59,7 @@ PS\> .\a.exe
 # Why cmake is so difficult?
 Although cmake is just a script language without complex types and cmake unified the command for easily using.  
 However, there is NO cmake tutorial.  
-There is NO cmake teaching resources.  
+There is NO systematic  resources.  
 
 for example, when you using old cmake version and old visual studio with x64 and x86
 ```
