@@ -45,6 +45,7 @@ mkdir build
 cd build
 cmake ..
 cmake --build . 
+ctest .
 ```
 
 And just build and run project with there own compiler.  
