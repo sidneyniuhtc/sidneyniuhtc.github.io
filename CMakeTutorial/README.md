@@ -13,9 +13,7 @@
     * Example: [Google Test](https://github.com/sidneyniuhtc/01FirstProject)
   * [2. CTest Framework](2.%20Write/02%20CTtest%20Framework)
     * Example: [Math Project](https://github.com/sidneyniuhtc/02Math)
-  * [3. Submodule](2.%20Write/03%20SubModules)
+  * [3. Submodule and Install](2.%20Write/03%20SubModules)
     * Example: [SubModule](https://github.com/sidneyniuhtc/03SubModule)
-  * Install Script
-    * Example: 
   * Add your own Module Finder
     * Example with GLEW, GLFW
