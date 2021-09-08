@@ -17,7 +17,7 @@ Project Folder
 　|　　　├─ Add.cpp  
 　|　　　└─ Fractor.cpp  
 　|　  
-　├─　test (folder)  
+　└─　test (folder)  
 　　　　├─ test_main.cpp  
 　　　　├─ TestFractor.cpp  
 　　　　└─ TestAdd.cpp  
