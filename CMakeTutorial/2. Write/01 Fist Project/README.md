@@ -99,7 +99,9 @@ The end function can put the paramater1 of start funtion for reading.
 if(UNIX)
    # do something
 endif(UNIX)
+
 # exactly same as
+
 if(UNIX)
    # do something
 endif()
