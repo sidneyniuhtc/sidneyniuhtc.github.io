@@ -48,8 +48,8 @@ If we want to assign a variable with a data, we use set().
 For example, if we want to set a flag of debug, we can do this:
 ```
 #[[ 
-CMAKE_CXX_FLAGS_DEBUG is the target variable
-"-g" is the paramater1 string
+CMAKE_CXX_FLAGS_DEBUG is the target variable at paramater1
+"-g" is the paramater2 string
 ]]
 
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
@@ -77,8 +77,8 @@ Thus, the first line usually is
 ```
 cmake_minimum_required(VERSION 3.12)
 # [[ 
-VERSION is the target variable
-3.5 is the paramater1 string
+VERSION is the target variable at paramater1
+3.12 is the paramater2 string
 ]]
 ```
 
