@@ -87,4 +87,5 @@ ctest
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/02%20CTtest%20Framework/ctest%20on%20win.PNG"/>
 
 Previous: [Basic Concept](../01%20Fist%20Project), 
-Main:[Upper Layer](../../)
+Main:[Upper Layer](../../), 
+Next: [SubModule](../03%20SubModules/) 
