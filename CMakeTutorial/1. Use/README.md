@@ -37,7 +37,7 @@ And put all dll to your path.
 On linux if you want to build static library you need to build by cmake after download.  
 [https://forums.linuxmint.com/viewtopic.php?t=267500](https://forums.linuxmint.com/viewtopic.php?t=267500)
 
-## Where to find the variables?
+## Where to find the cmake variables?
 There are many method to find how to set cmake project variables.   
 One method is to read the cmake files of the project.  
 Better method is using
