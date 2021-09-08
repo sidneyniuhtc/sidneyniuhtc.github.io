@@ -67,9 +67,8 @@ Also you need to have deeply understanding about compiler compile flags such as 
 Debuging cmake is extremely tough.  
 Take interpreted language for example, you can just stop at any step for debugging.  
 For compiled language, you need debug flag and run after compiling.  
-For cmake, you need to generate project on Windows and Linux to try the generator and then debug the compiling.  
-
-
+For cmake, you need to generate project on Windows and Linux to try the generator and then debug the compiling process.  
+And finally debug the C++ code. This means you should debug entire workflow form layer to layer.  
 
 
 [Upper Layer](../)
