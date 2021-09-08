@@ -23,11 +23,8 @@ Project Folder
 　　　　└─ TestAdd.cpp  
 
 ### Pack our project as library
-
-Further Reading: [Are CMAKE_SOURCE_DIR and PROJECT_SOURCE_DIR the same in CMake?](https://stackoverflow.com/questions/32028667/are-cmake-source-dir-and-project-source-dir-the-same-in-cmake)
-
-Second, create our library.  
 First, Use **file()** funtion to find the source files of our library.
+Second, create our library with found sources.  
 ```
 file(GLOB_RECURSE PROJ_LIB_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 add_library(PROJ_LIB ${PROJ_LIB_SOURCES} ) 
@@ -36,6 +33,7 @@ Let all objects to include our header.
 ```
 target_include_directories(PROJ_LIB PUBLIC "${CMAKE_SOURCE_DIR}/include")
 ```
+Further Reading: [Are CMAKE_SOURCE_DIR and PROJECT_SOURCE_DIR the same in CMake?](https://stackoverflow.com/questions/32028667/are-cmake-source-dir-and-project-source-dir-the-same-in-cmake)
 
 ### Create test_main with our project lib
 Find the all test files.
