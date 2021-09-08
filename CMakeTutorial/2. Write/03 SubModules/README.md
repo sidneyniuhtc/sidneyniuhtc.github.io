@@ -1,6 +1,8 @@
 # Sub-Modules
 
-## Multiple Projects
+## Developer
+
+### Multiple Projects
 If we want to manage multiple projects, use submodule is a better way.
 
 At git folder, you can add submodule by `git submodule add <git-project> <final-path>`  
@@ -15,17 +17,32 @@ add_subdirectory(02Math)
 add_subdirectory(3rdParty/01FirstProject)
 
 ```
-when you update submodule, need update
+When you update submodule, need update
 ```
 git submodule foreach --recursive git pull origin master
 ```
- 
-## Use the project
+
+### Install Script 
+Write **install()** function.
+```
+install(TARGETS lib02Math DESTINATION lib)
+
+install(DIRECTORY "${PROJECT_SOURCE_DIR}/02Math/include" DESTINATION include)
+```
+
+## Use part
+
+### Download
 pull data with recursive method
   
 ```
 git clone --recursive https://github.com/sidneyniuhtc/03SubModule.git
 ```
+
+### Build and install 
+
+See: [Use CMake Project](../1.%20Use/)
+
 
 ## Example
 [https://github.com/sidneyniuhtc/03SubModule](https://github.com/sidneyniuhtc/03SubModule)
