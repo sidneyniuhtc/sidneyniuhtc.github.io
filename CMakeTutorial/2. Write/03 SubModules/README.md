@@ -23,7 +23,7 @@ git submodule foreach --recursive git pull origin master
 ```
 
 ### Install Script 
-Write **install()** function.
+Write **install()** function in CMakeList.txt
 ```
 install(TARGETS lib02Math DESTINATION lib)
 
