@@ -1,8 +1,6 @@
-# Write CMake
+# First project
 
-## Our first project
-
-### Project name
+## Project name
 
 Remember, when you are using cmake, you always need to read the log.  
 At previous part, we saw that there is a warning message when call the cmake command:
@@ -27,7 +25,7 @@ project ("FirstProject")
 ```
 
 
-### Executable project
+## Executable project
 
 If you want to make a executable project, you need to add a executable file with sources
 add_executable(TARGET source1 source2 ...)
@@ -35,7 +33,7 @@ add_executable(TARGET source1 source2 ...)
 add_executable(FirstProject "main.cpp")
 ```
 
-### Find Library
+## Find Library
 
 Using library is common. We can add library at cmake.  
 
@@ -76,7 +74,7 @@ target_include_directories(FirstProject PRIVATE ${GTEST_INCLUDE_DIRS})
 target_link_libraries(FirstProject ${GTEST_BOTH_LIBRARIES})
 ```
 
-### Flow Control
+## Flow Control
 
 At "Basic concepts of CMake codes", we told about there are two classes of funtions.  
 Another fution class is multi-command funtions.  
@@ -110,14 +108,14 @@ endif()
 
 
 
-### Example project
+## Example project
 [https://github.com/sidneyniuhtc/01FirstProject](https://github.com/sidneyniuhtc/01FirstProject)  
 
 success on windows  
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/01%20Fist%20Project/Windows.PNG"/>
 
 
-### fail on linux
+## fail on linux
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/01%20Fist%20Project/Fail%20on%20Linux.PNG"/>
 
 When we just build the project on linux, google test will fail because the log shows not find the pthread.  
