@@ -27,8 +27,7 @@ project ("FirstProject")
 
 ## Executable project
 
-If you want to make a executable project, you need to add a executable file with sources
-add_executable(TARGET source1 source2 ...)
+If you want to make a executable project, you need to add a executable file with sources by using **add_executable(TARGET source1 source2 ...)**
 ```
 add_executable(FirstProject "main.cpp")
 ```
