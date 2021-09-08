@@ -96,6 +96,15 @@ endif()
 
 ```
 
+The end function can put the paramater1 of start funtion for reading.
+```
+if(UNIX)
+   # do something
+endif(UNIX)
+```
+
+
+
 ### Example project
 [https://github.com/sidneyniuhtc/01FirstProject](https://github.com/sidneyniuhtc/01FirstProject)  
 
