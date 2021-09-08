@@ -41,6 +41,7 @@ On linux if you want to build static library you need to build by cmake after do
 There are many method to find how to set cmake project variables.   
 One method is to read the cmake files of the project.  
 Easy method is use CMake-GUI, and this is what I most recommand.  
+<img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/1.%20Use/cmake-gui.PNG"/>
 
 
 ## Take OpenCV for example
