@@ -1,4 +1,4 @@
-# Use CMake
+# Use CMake Project
 
 ## Other Setting for cmake
 On windows we need to build cmake with x64 and x86 at different folder.  
