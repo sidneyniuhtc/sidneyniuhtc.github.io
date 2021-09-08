@@ -3,7 +3,7 @@
 ## Multiple Projects
 If we want to manage multiple projects, use submodule is a better way.
 
-At git folder, you can add submodule by git submodule add `<`git-project`>` `<`final-path`>`
+At git folder, you can add submodule by `git submodule add <git-project> <final-path>`  
 for example:
 ```
 $ git submodule add https://github.com/sidneyniuhtc/02Math.git 02Math
