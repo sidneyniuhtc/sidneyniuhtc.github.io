@@ -1,6 +1,6 @@
 # Write CMake codes
 
-## Recommand Datas
+## Recommand Reading Datas
 
 ###  Docs
 [CMake official Documentation](https://cmake.org/cmake/help/latest/index.html)
@@ -23,6 +23,7 @@ The entry point of cmake project is **CMakeLists.txt**.
 That is, you need to cmake on the folder who obtain **CMakeLists.txt**.  
 
 All cmake variables data type are **STRINGS**.  
+**${VARIABLE}** is the method to get the data of variable, and the result is a string.  
 
 CMake does not care UPPER or lower cases, IF() and if() are the same in cmake view.   
 Conventionally, cmake variables use **UPPER_CASES** for naming, such as CMAKE_CXX_FLAGS_DEBUG, PROJ_INCLUDE_DIRS, etc.  
@@ -59,7 +60,6 @@ If we want to append, we can use this method:
 ```
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
 ```
-**${VARIABLE}** is the method to get the data of variable, and the result is a string as mentioned before.
 
 ### print
 Moreover, The debug method is use **message()** built-in function.  
