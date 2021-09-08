@@ -1,12 +1,18 @@
 # Use CMake
 
 ## Other Setting for cmake
-CMake only recognized the slash path which is "/" even on windows.
-
+CMake only recognized the slash path which is "/" even on windows.  
+On windows we need to build cmake with x64 and x86 at different folder.  
 ```
 mkdir build
 cd build
 cmake -Ax64 ..
+cmake --build . --config Debug
+cmake --build . --config Release
+
+cd ..
+mkdir build32
+cmake ..
 cmake --build . --config Debug
 cmake --build . --config Release
 ```
