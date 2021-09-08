@@ -3,7 +3,10 @@
 ## What is ctest?
 ctest is cmake test framework, it provides cross-platform unit test. 
 
-## Project File Sample
+## Project File Hierarchy
+Separate header and source is better for packing library.  
+And separate test files for individual test.  
+
 Project Folder  
 　|　  
 　├─　include (folder)  
