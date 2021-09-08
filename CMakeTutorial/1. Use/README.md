@@ -16,7 +16,7 @@ cmake --build . --config Debug
 cmake --build . --config Release
 ```
 
-## Take Google Test for example
+## Take GoogleTest for example
 CMake only recognized the slash path which is "/" even on windows.  
 
 On Windows if you want to build google test with dll 
