@@ -6,7 +6,8 @@ ctest is cmake test framework, it provides cross-platform unit test.
 ## Project File Hierarchy
 Separate header and source is better for packing library.  
 And separate test files for individual test.  
-
+This structure is easy for install.  
+```
 Project Folder  
 　|　  
 　├─　include (folder)  
@@ -21,6 +22,7 @@ Project Folder
 　　　　├─ test_main.cpp  
 　　　　├─ TestFractor.cpp  
 　　　　└─ TestAdd.cpp  
+```
 
 ## Pack our project as library
 First, Use **file()** funtion to find the source files of our library.  
