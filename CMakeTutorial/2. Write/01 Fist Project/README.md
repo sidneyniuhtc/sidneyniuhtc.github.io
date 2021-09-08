@@ -60,10 +60,10 @@ message("GTEST_VERSION is ${GTEST_VERSION}")
 
 ```
 
-For link libraries and include the headers, you need to use include_directories and link_libraries
+For link libraries and include the headers, you need to use **include_directories()** and **link_libraries()**
 ```
-    include_directories(${GTEST_INCLUDE_DIRS})
-    link_libraries(${GTEST_BOTH_LIBRARIES})
+include_directories(${GTEST_INCLUDE_DIRS})
+link_libraries(${GTEST_BOTH_LIBRARIES})
 ```
 
 If you have many projects, you need to assign by target.
