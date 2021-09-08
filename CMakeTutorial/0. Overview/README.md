@@ -38,21 +38,22 @@ $ bash .\bootstrap.sh
 We wish to write one project generator and runs on different OS.  
 CMake is the solution.  
 
-When we have CMake, we donot need to write two script file we can run same commands on both systems:
+When we have CMake, we donot need to write two script file we can run same commands on both systems:  
+And it is able to build by cmake command.  
 ```
 mkdir build
 cd build
-cmake ..
+cmake -Ax64 ..
+cmake --build . --config Debug
+cmake --build . --config Release
 ```
 
-And just build and run project with there own compiler.
+And just build and run project with there own compiler.  
 ```
-PS\> MSBuild ALL_BUILD.vcxproj /p:Platform=x64 /p:Configuration=Release
 PS\> .\a.exe
 ```
 
 ```
-[user]$ make
 [user]$ .\a.out
 ```
 
