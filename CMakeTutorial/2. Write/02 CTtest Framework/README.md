@@ -1,12 +1,9 @@
-# Write CMake
+# CTest Framework
 
-## CTest Framework
-
-### What is ctest?
+## What is ctest?
 ctest is cmake test framework, it provides cross-platform unit test. 
 
-
-### Project File Sample
+## Project File Sample
 Project Folder  
 　|　  
 　├─　include (folder)  
@@ -22,7 +19,7 @@ Project Folder
 　　　　├─ TestFractor.cpp  
 　　　　└─ TestAdd.cpp  
 
-### Pack our project as library
+## Pack our project as library
 First, Use **file()** funtion to find the source files of our library.  
 Second, create our library with found sources.  
 ```
@@ -35,7 +32,7 @@ target_include_directories(PROJ_LIB PUBLIC "${CMAKE_SOURCE_DIR}/include")
 ```
 Further Reading: [Are CMAKE_SOURCE_DIR and PROJECT_SOURCE_DIR the same in CMake?](https://stackoverflow.com/questions/32028667/are-cmake-source-dir-and-project-source-dir-the-same-in-cmake)
 
-### Create test_main with our project lib
+## Create test_main with our project lib
 Find the all test files.
 ```
 file(GLOB_RECURSE PROJ_TEST_SOURCES "${CMAKE_SOURCE_DIR}/test/*.cpp")
@@ -46,7 +43,7 @@ Link our library to the test file
 target_link_libraries(${PROJ_TEST} ${PROJ_LIB})
 ```
 
-### Write ctest
+## Write ctest
 First, you need to enable testing
 ```
 enable_testing()
@@ -60,7 +57,7 @@ gtest_discover_tests(${PROJ_TEST})
 ```
 
 
-### Example code
+## Example code
 [https://github.com/sidneyniuhtc/02Math](https://github.com/sidneyniuhtc/02Math)
 On Windows:
 ```
