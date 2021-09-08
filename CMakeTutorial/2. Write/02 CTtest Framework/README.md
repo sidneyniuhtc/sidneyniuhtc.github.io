@@ -23,7 +23,7 @@ Project Folder
 　　　　└─ TestAdd.cpp  
 
 ### Pack our project as library
-First, Use **file()** funtion to find the source files of our library.
+First, Use **file()** funtion to find the source files of our library.  
 Second, create our library with found sources.  
 ```
 file(GLOB_RECURSE PROJ_LIB_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
