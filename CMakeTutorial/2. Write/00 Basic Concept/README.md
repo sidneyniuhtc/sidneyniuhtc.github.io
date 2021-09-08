@@ -1,4 +1,4 @@
-# Write CMake codes
+# Writing CMake codes
 
 ## Recommand Reading Datas
 
