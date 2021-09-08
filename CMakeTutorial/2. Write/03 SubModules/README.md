@@ -14,4 +14,12 @@ And we can add the subfoler at our CMakeList.txt
 add_subdirectory(02Math)
 ```
 
-
+when you update submodule, need update
+```
+git submodule foreach --recursive git pull origin master
+```
+  
+When use use the project
+```
+git clone --recursive https://github.com/sidneyniuhtc/03SubModule.git
+```
