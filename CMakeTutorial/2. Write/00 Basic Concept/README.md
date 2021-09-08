@@ -100,6 +100,6 @@ And run with the command we learn at [overview](../../0.%20Overview#why-we-need-
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/linux.png"/>
 <img src="https://github.com/sidneyniuhtc/sidneyniuhtc.github.io/raw/master/CMakeTutorial/2.%20Write/00%20Basic%20Concept/windows.PNG"/>
 
-Previous: [Use CMake](../1.%20Use/), 
+Previous: [Use CMake](../../1.%20Use/), 
 Main: [Upper Layer](../../), 
 Next: [Fist Project](../01%20Fist%20Project) 
