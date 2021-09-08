@@ -89,4 +89,4 @@ And finally debug the C++ code. This means you should debug entire workflow form
 
 
 Main: [Upper Layer](../), 
-Next: [Use CMake](../1.%20Use/)
+Next: [Use CMake Project](../1.%20Use/)
