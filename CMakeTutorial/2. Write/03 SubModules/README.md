@@ -25,9 +25,9 @@ git submodule foreach --recursive git pull origin master
 ### Install Script 
 Write **install()** function in CMakeList.txt
 ```
-install(TARGETS lib02Math DESTINATION lib)
+install(TARGETS lib02Math DESTINATION ViveSDK/libs)
 
-install(DIRECTORY "${PROJECT_SOURCE_DIR}/02Math/include" DESTINATION include)
+install(DIRECTORY "${PROJECT_SOURCE_DIR}/02Math/include" DESTINATION ViveSDK)
 ```
 
 ## Use part
