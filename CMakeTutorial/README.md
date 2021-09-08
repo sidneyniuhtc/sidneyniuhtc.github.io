@@ -15,5 +15,7 @@
     * Example: [Math Project](https://github.com/sidneyniuhtc/02Math)
   * [3. Submodule](2.%20Write/03%20SubModules)
     * Example: [SubModule](https://github.com/sidneyniuhtc/03SubModule)
+  * Install Script
+    * Example: 
   * Add your own Module Finder
     * Example with GLEW, GLFW
