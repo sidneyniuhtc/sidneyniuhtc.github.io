@@ -64,16 +64,15 @@ There is NO cmake teaching resources.
 for example, when you using old cmake version and old visual studio with x64 and x86
 ```
 mkdir build32
-cmake -G "Visual Studio 14" ..
-cd ..
+cmake -G "Visual Studio 14" -B build32 -S .
 mkdir build
-cmake -G "Visual Studio 14 Win64" ..
+cmake -G "Visual Studio 14 Win64" -B build -S .
 
 
 ```
 But at new version of cmake and new vs  with x64
 ```
-cmake -G "Visual Studio 16 2019" -Ax64
+cmake -G "Visual Studio 16 2019" -Ax64  -B build -S .
 
 ```
 And I donot know how to force build x86 lol.
