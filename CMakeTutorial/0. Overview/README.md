@@ -86,7 +86,8 @@ Take interpreted language for example, you can just stop at any step for debuggi
 For compiled language, you need debug flag and run after compiling.  
 For cmake, you need to generate project on Windows and Linux to try the generator and then debug the compiling process.  
 And finally debug the C++ code. This means you should debug entire workflow form layer to layer.  
-
+CMake does not have breakpoint method.  
+Moreover, it is difficult to just is the user command issue or developer code issue.  
 
 Main: [Upper Layer](../), 
 Next: [Use CMake Project](../1.%20Use/)
