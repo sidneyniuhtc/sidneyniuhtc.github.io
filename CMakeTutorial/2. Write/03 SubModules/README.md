@@ -13,6 +13,8 @@ $ git submodule add https://github.com/sidneyniuhtc/01FirstProject.git 3rdParty/
 And we can add the subfoler at our CMakeList.txt
 ```
 add_subdirectory(02Math)
+add_subdirectory(3rdParty/01FirstProject)
+
 ```
 when you update submodule, need update
 ```
