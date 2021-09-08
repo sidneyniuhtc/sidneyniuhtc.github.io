@@ -6,7 +6,7 @@
 [CMake official Documentation](https://cmake.org/cmake/help/latest/index.html)
 
 ### Videos
-★★☆☆☆ [CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”](https://www.youtube.com/watch?v=eC9-iRN2b04)
+★★★☆☆ [CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”](https://www.youtube.com/watch?v=eC9-iRN2b04)
   
 ★★★★★ [C++Now 2017: Daniel Pfeifer “Effective CMake"](https://www.youtube.com/watch?v=bsXLMQ6WgIk)
 
