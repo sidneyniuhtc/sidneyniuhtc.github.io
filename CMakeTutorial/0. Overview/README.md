@@ -56,4 +56,20 @@ PS\> .\a.exe
 [user]$ .\a.out
 ```
 
+# Why cmake is so difficult?
+Although cmake is just a script language without complex types and cmake unified the command for easily using.  
+However, there is NO cmake tutorial.  
+There is NO cmake teaching resources.  
+
+Further, using cmake need to have deeply understanding about OS environment variables such as PATH, or adding XXX_ROOT manully.  
+Also you need to have deeply understanding about compiler compile flags such as linking, configurations, settings, etc.  
+
+Debuging cmake is extremely tough.  
+Take interpreted language for example, you can just stop at any step for debugging.  
+For compiled language, you need debug flag and run after compiling.  
+For cmake, you need to generate project on Windows and Linux to try the generator and then debug the compiling.  
+
+
+
+
 [Upper Layer](../)
