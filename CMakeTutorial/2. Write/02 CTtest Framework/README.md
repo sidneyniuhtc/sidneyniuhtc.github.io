@@ -3,7 +3,7 @@
 ## CTest Framework
 
 ### What is ctest?
-ctest is cmake test framework, it provides cross-platform
+ctest is cmake test framework, it provides cross-platform test 
 
 
 ### Project File Sample
@@ -12,20 +12,54 @@ Project Folder
 　├─　include (folder)  
 　|　　　├─ Add.hpp  
 　|　　　└─ Fractor.hpp  
+　|　
 　├─　src (folder)  
 　|　　　├─ Add.cpp  
 　|　　　└─ Fractor.cpp  
+　|　
 　├─　test (folder)  
 　　　　├─ test_main.cpp  
 　　　　├─ TestFractor.cpp  
 　　　　└─ TestAdd.cpp  
 
+### Pack our project as library
 
-### 
+Further Reading: [Are CMAKE_SOURCE_DIR and PROJECT_SOURCE_DIR the same in CMake?](https://stackoverflow.com/questions/32028667/are-cmake-source-dir-and-project-source-dir-the-same-in-cmake)
 
+Second, create our library.  
+First, Use **file()** funtion to find the source files of our library.
+```
+file(GLOB_RECURSE PROJ_LIB_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
+add_library(PROJ_LIB ${PROJ_LIB_SOURCES} ) 
+```
+Let all objects to include our header.
+```
+target_include_directories(PROJ_LIB PUBLIC "${CMAKE_SOURCE_DIR}/include")
+```
+
+### Create test_main with our project lib
+Find the all test files.
+```
+file(GLOB_RECURSE PROJ_TEST_SOURCES "${CMAKE_SOURCE_DIR}/test/*.cpp")
+add_executable(TestMath ${PROJ_TEST_SOURCES})
+```
+Link our library to the test file
+```
+target_link_libraries(${PROJ_TEST} ${PROJ_LIB})
+```
 
 ### Write ctest
-First, you need to add 
+First, you need to enable testing
+```
+enable_testing()
+```
+
+In the past, you can add ctest with add_test().
+But now, we can use gtest
+```
+include(GoogleTest)
+gtest_discover_tests(${PROJ_TEST})
+```
 
 
 ### Example code
