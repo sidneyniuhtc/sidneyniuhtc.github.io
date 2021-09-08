@@ -3,7 +3,7 @@
 ## CTest Framework
 
 ### What is ctest?
-ctest is cmake test framework, it provides cross-platform test 
+ctest is cmake test framework, it provides cross-platform unit test. 
 
 
 ### Project File Sample
@@ -54,8 +54,8 @@ First, you need to enable testing
 enable_testing()
 ```
 
-In the past, you can add ctest with add_test().
-But now, we can use gtest
+In the past, you can add ctest with include(CTest), add_test().  
+But now, we can use gtest  
 ```
 include(GoogleTest)
 gtest_discover_tests(${PROJ_TEST})
