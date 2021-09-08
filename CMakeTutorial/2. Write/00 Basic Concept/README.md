@@ -30,8 +30,8 @@ Conventionally, cmake variables use **UPPER_CASES** for naming, such as CMAKE_CX
 And cmake funtions use **lower_cases** for naming, such as add_compile_options(), find_package(), etc.  
 
 The cmake funtion has two major classes, multi-command funtion and single command.  
-The single command format is **funtion(TARGET paramater1, paramater2, paramater3.....)**.  
-Maybe a funtion has TARGET, or maybe not.  
+The single command format is **funtion(paramater1, paramater2, paramater3.....)**.  
+(Usually, funtion has a TARGET at patamater1, or maybe not.)  
 Further, as we mentioned before, the paramaters are only STRING type which is need quotation mark.  
 
 ### comments
