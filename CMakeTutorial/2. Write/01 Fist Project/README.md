@@ -29,7 +29,8 @@ project ("FirstProject")
 
 ### Executable project
 
-If you want to make a executable project, you need to add a executable file
+If you want to make a executable project, you need to add a executable file with sources
+add_executable(TARGET source1 source2 ...)
 ```
 add_executable(FirstProject "main.cpp")
 ```
@@ -82,7 +83,7 @@ Another fution class is multi-command funtions.
 These funtions have pair of start function and end function, like html has a starting tag and closing tag.  
 for example:
 ```
-foreach(INPUTS input1, input2, input3....)
+foreach(INPUTS input1 input2 input3 ...)
     message("current is ${INPUTS}")
 endforeach(INPUTS)
 ```
@@ -101,7 +102,7 @@ The end function can put the paramater1 of start funtion for reading.
 if(UNIX)
    # do something
 endif(UNIX)
-
+# exactly same as
 if(UNIX)
    # do something
 endif()
