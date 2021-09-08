@@ -11,8 +11,8 @@
     * Example: [Hello CMake](https://github.com/sidneyniuhtc/00HelloCMake.git)
   * [1. Fist Project](2.%20Write/01%20Fist%20Project/)
     * Example: [Google Test](https://github.com/sidneyniuhtc/01FirstProject)
-  * CTest
-    * Example: 
+  * 2. CTest Framework
+    * Example: [Math Project](https://github.com/sidneyniuhtc/02Math)
   * 3. Other Built-in functions
     * Example with QtGL
   * 4. Add Extra getModule.cmake
