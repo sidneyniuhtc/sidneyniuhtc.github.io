@@ -61,6 +61,24 @@ Although cmake is just a script language without complex types and cmake unified
 However, there is NO cmake tutorial.  
 There is NO cmake teaching resources.  
 
+for example, when you using old cmake version and old visual studio with x64 and x86
+```
+mkdir build32
+cmake -G "Visual Studio 14" ..
+cd ..
+mkdir build
+cmake -G "Visual Studio 14 Win64" ..
+
+
+```
+But at new version of cmake and new vs  with x64
+```
+cmake -G "Visual Studio 16 2019" -Ax64
+
+```
+And I donot know how to force build x86 lol.
+
+
 Further, using cmake need to have deeply understanding about OS environment variables such as PATH, or adding XXX_ROOT manully.  
 Also you need to have deeply understanding about compiler compile flags such as linking, configurations, settings, etc.  
 

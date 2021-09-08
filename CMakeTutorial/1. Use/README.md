@@ -17,6 +17,32 @@ cmake --build . --config Debug
 cmake --build . --config Release
 ```
 
+## Take Google Test for example
+
+On Windows if you want to build google test with dll 
+```
+cd D:\package\Google
+git clone https://github.com/google/googletest.git
+cd .\googletest\
+mkdir build
+cd build
+cmake -Ax64 -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=D:/package/Google/googletest/install ..
+cmake --build . --config Debug
+cmake --build . --config Release
+cmake --install .
+```
+And you need to Add environment of GTEST_ROOT with D:\package\Google\googletest\install  
+And put all dll to your path.  
+
+On linux if you want to build static library you need to build by cmake after download.  
+[https://forums.linuxmint.com/viewtopic.php?t=267500](https://forums.linuxmint.com/viewtopic.php?t=267500)
+
+## Where to find the variables?
+There are many method to find how to set cmake project variables.   
+One method is to read the cmake files of the project.  
+Easy method is use CMake-GUI, and this is what I most recommand.  
+
+
 ## Take OpenCV for example
 ```
 mkdir opencv
@@ -43,7 +69,3 @@ cmake -G "Visual Studio 16 2019" -Ax64 \
     -DWITH_TBB=ON ..
      
 ```
-
-## Better to use on GUI
-
-
