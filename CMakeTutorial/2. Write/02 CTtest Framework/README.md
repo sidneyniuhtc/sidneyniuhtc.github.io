@@ -29,7 +29,7 @@ Second, create our library with found sources.
 file(GLOB_RECURSE PROJ_LIB_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 add_library(PROJ_LIB ${PROJ_LIB_SOURCES} ) 
 ```
-Let all objects to include our header.
+Let all objects to include our headers.
 ```
 target_include_directories(PROJ_LIB PUBLIC "${CMAKE_SOURCE_DIR}/include")
 ```
