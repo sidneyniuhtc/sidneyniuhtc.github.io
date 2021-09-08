@@ -43,9 +43,8 @@ And it is able to build by cmake command.
 ```
 mkdir build
 cd build
-cmake -Ax64 ..
-cmake --build . --config Debug
-cmake --build . --config Release
+cmake ..
+cmake --build . 
 ```
 
 And just build and run project with there own compiler.  
