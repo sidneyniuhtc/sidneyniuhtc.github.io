@@ -45,10 +45,9 @@ mkdir build
 cd build
 cmake ..
 cmake --build . 
-ctest .
 ```
 
-And just build and run project with there own compiler.  
+And run on different environment.  
 ```
 PS\> .\a.exe
 ```
