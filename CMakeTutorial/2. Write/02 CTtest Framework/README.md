@@ -63,10 +63,10 @@ gtest_discover_tests(${PROJ_TEST})
 
 
 ## Example code
-[https://github.com/sidneyniuhtc/02Math](https://github.com/sidneyniuhtc/02Math)
+[https://github.com/sidneyniuhtc/02TtestFramework](https://github.com/sidneyniuhtc/02TtestFramework)
 On Windows:
 ```
-git clone https://github.com/sidneyniuhtc/02Math
+git clone https://github.com/sidneyniuhtc/02TtestFramework
 cd 02Math
 mkdir build
 cd build
@@ -76,7 +76,7 @@ ctest
 ```
 On Linux:
 ```
-git clone https://github.com/sidneyniuhtc/02Math
+git clone https://github.com/sidneyniuhtc/02TtestFramework
 cd 02Math
 mkdir build
 cd build
