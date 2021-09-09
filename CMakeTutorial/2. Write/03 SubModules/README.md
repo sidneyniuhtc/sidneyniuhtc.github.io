@@ -1,4 +1,4 @@
-# Sub-Modules
+# Sub-Modules and Install
 
 ## Developer
 
@@ -28,6 +28,25 @@ Write **install()** function in CMakeList.txt
 install(TARGETS lib02Math DESTINATION ViveSDK/libs)
 
 install(DIRECTORY "${PROJECT_SOURCE_DIR}/02Math/include" DESTINATION ViveSDK)
+```
+
+### Create Config.cmake by EXPORT
+When we need to generate Config.cmake automatically by cmake.  
+We need to tell cmake where we move the files.
+```
+install(TARGETS lib02Math
+  EXPORT lib02MathConfig
+  RUNTIME DESTINATION ViveSDK/bin
+  LIBRARY DESTINATION ViveSDK/lib
+  ARCHIVE DESTINATION ViveSDK/lib
+  INCLUDES DESTINATION ViveSDK/include
+  )
+
+install(EXPORT lib02MathConfig
+    FILE lib02MathConfig.cmake
+    DESTINATION ViveSDK
+    NAMESPACE Vive::
+)
 ```
 
 ## Use part
