@@ -63,7 +63,7 @@ gtest_discover_tests(${PROJ_TEST})
 
 
 ## Example code
-[https://github.com/sidneyniuhtc/02TtestFramework](https://github.com/sidneyniuhtc/02TtestFramework)
+[https://github.com/sidneyniuhtc/02TtestFramework](https://github.com/sidneyniuhtc/02TtestFramework)  
 On Windows:
 ```
 git clone https://github.com/sidneyniuhtc/02TtestFramework
