@@ -91,7 +91,7 @@ Moreover, it is difficult to just is the user command issue or developer code is
 
 
 ## Recommend CMake development environment is VSCode
-For cross platform development, it is better to choose cross platform IDE also.  
+For cross platform development, it is better to choose cross platform Text Editor also such as VSCode.
 But, you still need to install visual studio 2019 for their compiler and libraries.  
 
 
