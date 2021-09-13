@@ -19,7 +19,8 @@ cmake --build . --config Release
 ## Take GoogleTest for example
 CMake only recognized the slash path which is "/" even on windows.  
 
-On Windows if you want to build google test with dll 
+### On Windows 
+if you want to build google test with dll 
 ```
 cd D:\package\Google
 git clone https://github.com/google/googletest.git
@@ -33,8 +34,14 @@ cmake --install .
 ```
 And you need to Add environment of GTEST_ROOT with D:\package\Google\googletest\install  
 And put all dll to your path.  
+for exmaple :
+```
+$env:GTEST_ROOT = D:\package\Google\googletest\install
+$env:Path = D:\package\Google\googletest\install\bin;$env:Path
+```
 
-On linux if you want to build static library you need to build by cmake after download.  
+### On linux 
+if you want to build static library you need to build by cmake after download.  
 [https://forums.linuxmint.com/viewtopic.php?t=267500](https://forums.linuxmint.com/viewtopic.php?t=267500)
 
 ## Where to find the cmake variables?
