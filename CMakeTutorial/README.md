@@ -19,6 +19,7 @@
     * Example: [Customized Scripts](https://github.com/sidneyniuhtc/04CustomizedScripts)
 
 ## Further readings
-* [DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler)
 * [Build and Debug C++ with WSL 2 Distributions and Visual Studio 2022](https://devblogs.microsoft.com/cppblog/build-and-debug-c-with-wsl-2-distributions-and-visual-studio-2022/)
-* 
+* Projects
+  * [microsoft/DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler)
+  * [microsoft/vscode-cmake-tools](https://github.com/microsoft/vscode-cmake-tools)
