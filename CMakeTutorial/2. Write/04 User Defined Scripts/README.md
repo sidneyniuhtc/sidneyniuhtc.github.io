@@ -19,7 +19,7 @@ Project Folder
 　|　  
 　├─　cmake (folder)  
 　|　　　├─ scriptA.cmake  
-　|　　　├─ scriptA.cmake  
+　|　　　├─ scriptB.cmake  
 　|　　　|
 　|　  　└─ Modules(folder)  
 　|　  　 　　├─ FindXXX.cmake  
