@@ -89,5 +89,11 @@ And finally debug the C++ code. This means you should debug entire workflow form
 CMake does not have breakpoint method.  
 Moreover, it is difficult to just is the user command issue or developer code issue.  
 
+
+## Recommend CMake development environment is VSCode
+For cross platform development, it is better to choose cross platform IDE also.  
+But, you still need to install visual studio 2019 for their compiler and libraries.  
+
+
 Main: [Upper Layer](../), 
 Next: [Use CMake Project](../1.%20Use/)
