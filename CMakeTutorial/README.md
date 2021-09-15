@@ -20,6 +20,9 @@
 
 ## Further readings
 * [Build and Debug C++ with WSL 2 Distributions and Visual Studio 2022](https://devblogs.microsoft.com/cppblog/build-and-debug-c-with-wsl-2-distributions-and-visual-studio-2022/)
-* Projects
+* ms projects
   * [microsoft/DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler)
   * [microsoft/vscode-cmake-tools](https://github.com/microsoft/vscode-cmake-tools)
+* VSCode
+  * [Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/cmake-linux)
+  * [VS Code与CMake真乃天作之合 - 知乎专栏](https://zhuanlan.zhihu.com/p/52874931)
