@@ -26,3 +26,4 @@
 * VSCode
   * [Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/cmake-linux)
   * [VS Code与CMake真乃天作之合 - 知乎专栏](https://zhuanlan.zhihu.com/p/52874931)
+  * [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
