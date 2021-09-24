@@ -2,10 +2,10 @@
 
 ## Ideal Scenario
 * CMake Cycle
-  * 1. there is a cmake project
-  * 2. build the cmake project
-  * 3. write a cmake project to include and link pre-build cmake project
-  * loop 1~3
+  1. there is a cmake project  
+  2. build the cmake project  
+  3. write a cmake project to include and link pre-build cmake project  
+  loop a~c
 
 
 ## Other Setting for cmake
