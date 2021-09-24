@@ -13,6 +13,7 @@ for example:
 ```
 And we can add the subfoler at our CMakeList.txt
 ```
+# CMakeList.txt
 add_subdirectory(02Math)
 add_subdirectory(3rdParty/01FirstProject)
 
@@ -25,6 +26,8 @@ When you update submodule, need update
 ### Install Script 
 Write **install()** function in CMakeList.txt
 ```
+# CMakeList.txt
+
 install(TARGETS lib02Math DESTINATION ViveSDK/libs)
 
 install(DIRECTORY "${PROJECT_SOURCE_DIR}/02Math/include" DESTINATION ViveSDK)
