@@ -1,6 +1,6 @@
 # User Defined Scripts
 
-## Reusable  
+## Reusable Scripts
 If you want to package a bundle of scripts, you can write a file named XXX.cmake at folder cmake.  
 You can call the script by `include()`  
 ```
@@ -32,6 +32,27 @@ Project Folder
 
 ## Example Project
 [https://github.com/sidneyniuhtc/04CustomizedScripts](https://github.com/sidneyniuhtc/04CustomizedScripts)
+
+
+
+## User Defined Function
+The format of user defined function is 
+```
+function(<YourFunctionName> Arg1 Arg2...)
+  <commands>
+endfunction()
+```
+For example:
+```
+# define a funtion
+funtion(foo Input1)
+   message("${Input1}")
+endfuntion()
+
+# use a function
+foo("hello cmake")
+```
+
 
 Previous: [Sub-Modules and Install](../03%20SubModules/), 
 Main:[Upper Layer](../../)
