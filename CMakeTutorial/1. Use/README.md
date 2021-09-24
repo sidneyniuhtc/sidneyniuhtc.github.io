@@ -43,8 +43,8 @@ And you need to Add environment of GTEST_ROOT with D:\package\Google\googletest\
 And put all dll to your path.  
 for exmaple :
 ```
-$env:GTEST_ROOT = D:\package\Google\googletest\install
-$env:Path = D:\package\Google\googletest\install\bin;$env:Path
+PS \> $env:GTEST_ROOT = D:\package\Google\googletest\install
+PS \> $env:Path = D:\package\Google\googletest\install\bin;$env:Path
 ```
 
 ### On linux 
