@@ -5,7 +5,7 @@
   1. there is a cmake project  
   2. build the cmake project  
   3. write a cmake project to include and link pre-build cmake project  
-  loop i~iii
+  4. loop i~iii
 
 ## Other Setting for cmake
 On windows we need to build cmake with x64 and x86 at different folder.  
